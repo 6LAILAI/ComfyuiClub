@@ -1,0 +1,335 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Flux 101",
+  "logo": {
+    "dark": "/images/logo/dark.svg",
+    "light": "/images/logo/light.svg"
+  },
+  "favicon": "/images/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "theme": "prism",
+  "tabs":[
+    {
+      "name": "Flux Prompt Library",
+      "version": "English",
+      "url": "en/prompt-library"
+    },
+    {
+      "name": "Flux 提示词库",
+      "version": "日本語",
+      "url": "ja/prompt-library"
+    },
+    {
+      "name": "Flux 提示词库",
+      "version": "简体中文",
+      "url": "zh-CN/prompt-library"
+    },
+    {
+      "name": "Changelog",
+      "version": "English",
+      "url": "en/changelogs"
+    },
+    {
+      "name": "更新日志",
+      "version": "日本語",
+      "url": "ja/changelogs"
+    },
+    {
+      "name": "更新日志",
+      "version": "简体中文",
+      "url": "zh-CN/changelogs"
+    }
+  ],
+  "primaryTab": {
+    "name": "Home"
+  },
+  "anchors": [
+    {
+      "name": "Author's Twitter",
+      "icon": "x-twitter",
+      "url": "https://twitter.com/hellojimmywong",
+      "version": "English"
+    },
+    {
+      "name": "Author's YouTube",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/@HeyJimmyWong",
+      "version": "English"
+    },
+    {
+      "name": "作者の Twitter",
+      "icon": "x-twitter",
+      "url": "https://twitter.com/hellojimmywong",
+      "version": "日本語"
+    },
+    {
+      "name": "作者の YouTube",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/@HeyJimmyWong",
+      "version": "日本語"
+    },
+    {
+      "name": "作者的小红书",
+      "icon": "book",
+      "url": "https://www.xiaohongshu.com/user/profile/6073d38d00000000010068a6",
+      "version": "简体中文"
+    },
+    {
+      "name": "作者的 B 站",
+      "icon": "youtube",
+      "url": "https://space.bilibili.com/1409205119",
+      "version": "简体中文"
+    },
+    {
+      "name": "ComfyUI 101",
+      "icon": "book-open-cover",
+      "url": "https://www.comflowy.com/docs"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Welcome",
+      "version": "English",
+      "pages": [
+        "en/introduction"
+      ]
+    },
+    {
+      "group": "ようこそ",
+      "version": "日本語",
+      "pages": [
+        "ja/introduction"
+      ]
+    },
+    {
+      "group": "欢迎",
+      "version": "简体中文",
+      "pages": [
+        "zh-CN/introduction"
+      ]
+    },
+    {
+      "group": "Basics",
+      "version": "English",
+      "pages": [
+        "en/basics/flux-model",
+        "en/basics/flux-comfyui-workflow",
+        "en/basics/flux-prompt",
+        "en/basics/flux-with-lora",
+        "en/basics/flux-inpainting-and-outpainting"
+      ]
+    },
+    {
+      "group": "基礎",
+      "version": "日本語",
+      "pages": [
+        "ja/basics/flux-model",
+        "ja/basics/flux-comfyui-workflow",
+        "ja/basics/flux-prompt",
+        "ja/basics/flux-with-lora",
+        "ja/basics/flux-inpainting-and-outpainting"
+      ]
+    },
+    {
+      "group": "基础",
+      "version": "简体中文",
+      "pages": [
+        "zh-CN/basics/flux-model",
+        "zh-CN/basics/flux-comfyui-workflow",
+        "zh-CN/basics/flux-prompt",
+        "zh-CN/basics/flux-with-lora",
+        "zh-CN/basics/flux-inpainting-and-outpainting"
+      ]
+    },
+    {
+      "group": "Advanced",
+      "version": "English",
+      "pages": [
+        "en/intermediate/flux-redux",
+        "en/intermediate/flux-canny-control",
+        "en/intermediate/flux-depth-control",
+        "en/intermediate/flux-with-ipa",
+        "en/intermediate/flux-with-pulid"
+      ]
+    },
+    {
+      "group": "進階",
+      "version": "日本語",
+      "pages": [
+        "ja/intermediate/flux-redux",
+        "ja/intermediate/flux-canny-control",
+        "ja/intermediate/flux-depth-control",
+        "ja/intermediate/flux-with-ipa",
+        "ja/intermediate/flux-with-pulid"
+      ]
+    },
+    {
+      "group": "进阶",
+      "version": "简体中文",
+      "pages": [
+        "zh-CN/intermediate/flux-redux",
+        "zh-CN/intermediate/flux-canny-control",
+        "zh-CN/intermediate/flux-depth-control",
+        "zh-CN/intermediate/flux-with-ipa",
+        "zh-CN/intermediate/flux-with-pulid"
+      ]
+    },
+    {
+      "group": "Advanced",
+      "version": "English",
+      "pages": [
+        "en/advanced/changing-models-clothes-by-using-flux",
+        "en/advanced/logo-to-product-by-using-flux",
+        "en/advanced/fine-tune-flux",
+        "en/advanced/get-inspiration"
+      ]
+    },
+    {
+      "group": "高級",
+      "version": "日本語",
+      "pages": [
+        "ja/advanced/changing-models-clothes-by-using-flux",
+        "ja/advanced/logo-to-product-by-using-flux",
+        "ja/advanced/fine-tune-flux",
+        "ja/advanced/get-inspiration"
+      ]
+    },
+    {
+      "group": "高级",
+      "version": "简体中文",
+      "pages": [
+        "zh-CN/advanced/changing-models-clothes-by-using-flux",
+        "zh-CN/advanced/logo-to-product-by-using-flux",
+        "zh-CN/advanced/fine-tune-flux",
+        "zh-CN/advanced/get-inspiration"
+      ]
+    },
+    {
+      "group": "Prompt Library",
+      "version": "English",
+      "pages": [
+        "en/prompt-library/library"
+      ]
+    },
+    {
+      "group": "提示词库",
+      "version": "日本語",
+      "pages": [
+        "ja/prompt-library/library"
+      ]
+    },
+    {
+      "group": "提示词库",
+      "version": "简体中文",
+      "pages": [
+        "zh-CN/prompt-library/library",
+        "zh-CN/prompt-library/game-design"
+      ]
+    },
+    {
+      "group": "Changelog",
+      "version": "English",
+      "pages": [
+        "en/changelogs/updates"
+      ]
+    },
+    {
+      "group": "更新日志",
+      "version": "日本語",
+      "pages": [
+        "ja/changelogs/updates"
+      ]
+    },
+    {
+      "group": "更新日志",
+      "version": "简体中文",
+      "pages": [
+        "zh-CN/changelogs/updates"
+      ]
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Try Flux",
+    "url": "https://app.comflowy.com/app/28e42489-4c34-4c36-9825-f65ad32dd831"
+  },
+  "versions": [
+    {
+      "name": "English",
+      "locale": "en",
+      "default": true
+    },
+    {
+      "name": "日本語",
+      "locale": "jp"
+    },
+    {
+      "name": "简体中文",
+      "locale": "cn"
+    }
+  ],
+  "footer": {
+    "socials": {
+      "x": "https://twitter.com/hellojimmywong",
+      "github": "https://github.com/thinkingjimmy/flux101"
+    },
+    "links": [
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "Comflowy",
+            "url": "https://app.comflowy.com/"
+          },
+          {
+            "label": "ComfyUI 101",
+            "url": "https://www.comflowy.com/docs"
+          },
+          {
+            "label": "Diffusion 101",
+            "url": "https://www.diffusion101.com"
+          }
+        ]
+      },
+      {
+        "title": "Flux Apps",
+        "links": [
+          {
+            "label": "Flux Pro",
+            "url": "https://app.comflowy.com/app/153bbc35-b70e-494b-af5a-14eba0f794b9"
+          },
+          {
+            "label": "Flux Dev",
+            "url": "https://app.comflowy.com/app/28e42489-4c34-4c36-9825-f65ad32dd831"
+          },
+          {
+            "label": "CharacterCraft",
+            "url": "https://app.comflowy.com/app/245299b2-4247-4e41-9736-92c6abd2953b"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "og:site_name": "Flux 101",
+    "og:url": "https://flux101.com",
+    "og:image": "https://image.app-image.com/flux101/hero-light.png",
+    "twitter:url": "https://twitter.com/hellojimmywong",
+    "twitter:site": "@hellojimmywong",
+    "twitter:image": "https://image.app-image.com/flux101/hero-light.png",
+    "twitter:creator": "@hellojimmywong",
+    "twitter:description": "Flux 101 is a comprehensive guide to using Flux, a cutting-edge image generation model. It covers everything from basic usage to advanced techniques, and includes a detailed explanation of how to use Flux with ComfyUI."
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-4PBSC7Y97F"
+    }
+  }
+}
